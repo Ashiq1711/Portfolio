@@ -1,0 +1,28 @@
+.title {
+    position: relative;
+  }
+.title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+.title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  @media screen and (max-width: 768px) {
+   
+    .title h1 {
+      font-size: 30px;
+      padding: 0px 10px;
+      font-weight: 600;
+  
+    } 
+    .title img {
+        width: 80px;
+    }   
+
+    
+  }

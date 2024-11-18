@@ -1,0 +1,51 @@
+.mywork {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+.mywork-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.mywork-card img {
+  border-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.mywork-card img:hover {
+  transform: scale(1.05);
+}
+.showmore {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 100%);
+  transition: 0.4s;
+}
+.showmore:hover {
+  transform: scale(1.05);
+  background: linear-gradient(267deg, #b923e1 0.36%, #da7c25 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .mywork {
+    margin: 40px 20px;
+  }
+  .mywork-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 20px;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .showmore {
+    padding: 10px 20px;
+  }
+}

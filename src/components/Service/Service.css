@@ -1,0 +1,118 @@
+.services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+
+.service-card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid #b923e1;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.service-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+.service-card-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.service-card-item h1 {
+  font-size: 40px;
+  font-weight: 700;
+  background: linear-gradient(267deg, #DA7c25 0.36%, #B923E1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.service-card-item p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.services-redmore {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.services-redmore p {   
+  font-size: 20px;
+  font-weight: 600; 
+  transition: 0.4s;
+  cursor: pointer;
+}
+.services-redmore img {
+  transition: 0.4s;
+  cursor: pointer; 
+
+}
+
+.service-card-item:hover {
+  transform: scale(1.05);
+  background: linear-gradient(267deg, #bb7ecb 0.36%, #bc9876 100%);
+}       
+.service-card-item:hover .services-redmore p {
+  color: white;
+}
+.service-card-item:hover .services-redmore img {
+  filter: invert(1);
+}       
+
+@media screen and (max-width: 768px) {
+    .services{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+        margin: 40px 20px;
+    }
+    .service-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 30px;
+    } 
+    .service-card-item {
+
+      gap: 10px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #b923e1;
+    }
+    .service-card-item h3 {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .service-card-item h1 {
+      font-size: 20px;
+      font-weight: 700;
+    
+    }
+    .service-card-item p {
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .services-redmore {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .services-redmore p {   
+      font-size: 12px;
+      font-weight: 600; 
+    }
+    .services-redmore img {
+      width: 20px;
+    }
+  
+}
