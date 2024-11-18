@@ -83,7 +83,6 @@
     .hero p{
         font-size: 15px;
         width: 100%;
-        margin: 0px 20px;
 
     }   
     .hero-action{        
@@ -91,7 +90,7 @@
         gap: 10px;
     
     }
-    .hero-contact{
+    .hero-contact {
         padding: 10px 20px;
     }
     .hero-resume{
