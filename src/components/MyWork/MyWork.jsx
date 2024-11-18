@@ -20,10 +20,10 @@ const MyWork = () => {
           );
         })}
       </div>
-              <div className="showmore">
-                <p>Show more</p>
-                <img src={arrow} alt="" />
-              </div>
+      <div className="showmore">
+        <p>Show more</p>
+        <img src={arrow} alt="" />
+      </div>
     </div>
   );
 };
