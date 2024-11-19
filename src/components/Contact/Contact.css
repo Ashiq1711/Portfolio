@@ -124,12 +124,15 @@ width: 100%;
     .contact-right input{
         height: 38px;
         width: 100%;
+        padding: 0px;
     
 
     }
+
     .contact-right textarea{
         height: auto;
-        width: 100%;    
+        width: 100%;   
+        padding: 0px; 
     }
     .contact-left h1{
         font-size: 40px;

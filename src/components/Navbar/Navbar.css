@@ -62,6 +62,7 @@
    }
 .nav-contact{
 display: none;
+
 }
 .nav-mob-open{
     display: block;
@@ -76,8 +77,8 @@ display: none;
     display: block;
     position: relative;
     top: 30px;
-    left: 290px;
-    width: 30px;
+    left: 250px;
+    width: 20px;
 }
     .nav-menu{
         position: fixed;    
@@ -85,19 +86,20 @@ display: none;
         flex-direction: column;
         align-items: start;
         gap: 30px;
-        width: 350px;
+        width: 300px;
         height: 100%;
-        background-color: #101a1a;
+        background-color: #152121;
         z-index: 10;
         transition: right 0.5s;
         padding: 0;
         border: none;
         border-radius: 0;
         right: -350px;
+       
     }
     .nav-menu li{
-        font-size: 30px;
-        padding-left: 100px;
+        font-size: 20px;
+        padding-left: 80px;
         flex-direction: row;
         gap: 20px;
     }

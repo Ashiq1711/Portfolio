@@ -44,6 +44,9 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  .mywork-card img {
+   width: 100%;
+  }
   .showmore {
     padding: 10px 20px;
     gap: 20px;
