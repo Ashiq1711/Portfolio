@@ -37,6 +37,24 @@
   background: linear-gradient(267deg, #b923e1 0.36%, #da7c25 100%);
 }
 
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+.mywork-card-item {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+
 @media screen and (max-width: 768px) {
   .mywork {
     margin: 40px 20px;

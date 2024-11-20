@@ -2,9 +2,15 @@ import React from "react";
 import "./Footer.css";
 import logo from "../../assets/logo.png";
 import { FaRegUser } from "react-icons/fa";
+import ScrollToTop from "react-scroll-to-top";
+
 const Footer = () => {
   return (
     <div className="footer">
+        <ScrollToTop smooth top='1500' color="white"   style={{
+          backgroundColor: "#36342f", // Change to your desired color
+                   // Optional: adjust padding
+        }} />
       <div className="footer-top">
         <div className="footer-top-left">
           <img className="footer-logo" src={logo} alt="" />
