@@ -87,13 +87,22 @@
   }
   .hero-action {
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
   }
+.hero-contact{
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+.hero-resume {
+margin: 0 auto;
 
-  .hero-contact {
-    padding: 10px 20px;
-  }
-  .hero-resume {
-    padding: 10px 20px;
-  }
+}
+.hero-resume a{
+  padding: 15px 30px;
+  font-size: 16px;
+
+}
 }
