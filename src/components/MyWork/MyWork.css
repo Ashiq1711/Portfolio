@@ -22,12 +22,15 @@
 .showmore {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border-radius: 50px;
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 100%);
   transition: 0.4s;
+}
+.showmore img{
+ width: 20px;
 }
 .showmore:hover {
   transform: scale(1.05);
