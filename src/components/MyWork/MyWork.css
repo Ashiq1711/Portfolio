@@ -20,21 +20,24 @@
   transform: scale(1.05);
 }
 .showmore {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+
   cursor: pointer;
   padding: 12px 20px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 100%);
+  border: 2px solid #f7f4f8;
   transition: 0.4s;
+}
+.showmore p{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
 }
 .showmore img{
  width: 20px;
 }
 .showmore:hover {
   transform: scale(1.05);
-  background: linear-gradient(267deg, #b923e1 0.36%, #da7c25 100%);
 }
 
 @keyframes appear{

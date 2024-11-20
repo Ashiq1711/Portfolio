@@ -24,9 +24,9 @@ const MyWork = () => {
           );
         })}
       </div>
-      <div className="showmore">
-        <p onClick={showMore}>Show more</p>
-        <img src={arrow} alt="" />
+      <div onClick={showMore} className="showmore">
+        <p >Show more  <img src={arrow} alt="" /></p>
+       
       </div>
     </div>
   );
