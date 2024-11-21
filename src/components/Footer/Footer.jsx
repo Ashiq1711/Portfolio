@@ -61,7 +61,7 @@ const Footer = () => {
           <p>Copyright © 2025. All rights reserved</p>
         </div>
         <div className="footer-bottom-right">
-          <p>Created by <span className="footer-ashiq">Ashiq</span> </p>
+          <p>Created by <span className="footer-ashiq">Robiul Islam Ashiq</span> </p>
         </div>
       </div>
     </div>

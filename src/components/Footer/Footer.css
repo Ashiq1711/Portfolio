@@ -101,15 +101,17 @@
     font-size: 25px;
   }
   .footer-top-right {
-    width: 100%;
-    gap: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
     margin-top: 50px;
   }
 
   .footer-email {
     display: flex;
     align-items: center;
-
+gap: 10px;
+padding: 10px 10px;
     border-radius: 50px;
     border: 2px solid #e0cae6;
     background: #e1e0e2;
@@ -130,10 +132,11 @@
 
   .footer-bottom {
     display: flex;
+    flex-direction: column;
   font-size: 14px;
   margin-bottom: 20px;
-    gap: 40px;
-    text-decoration: underline;
+  gap: 10px;
+
   }
   .footer-ashiq{
     color: rgb(66, 66, 211);
